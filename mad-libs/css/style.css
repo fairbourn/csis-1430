@@ -1,0 +1,37 @@
+/*Separate style sheet*/
+/*Colors (backgrounds, text, highlighting stuff, etc.)*/
+*{margin: 0; padding: 0;}
+ul li, ul li a
+{
+  display: inline-block;
+  border: 3px solid red;
+}
+
+body{
+    background-color: LightCyan;
+    color: Black;
+    text-align: center;
+}
+
+.body {
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: gold solid;
+}
+.header {
+  padding: 10px;
+  margin: 1px auto;
+  width: 800px;
+  padding: 22px;
+  border: gold solid;
+}
+.button {
+  font-family: "Lucida Console", "Courier New", monospace;
+  padding: 10px;
+  margin: 1px auto;
+  width: 100px;
+  padding: 22px;
+  border: LightCyan solid;
+}

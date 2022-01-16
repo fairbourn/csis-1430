@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Order</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a class="active" href="order.html">Order</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+<h1>Order</h1>
+<div class="order">
+        <h2>Design Your Own Pizza!</h2>
+        <p>
+          Build your very own pizza and one of our great pizza builders will start putting it all togther for you! Just the way you like it!
+        </p>
+        <form method="post" action="https://www.stonecoldprofessor.com/pizza-order.php">
+            <div class="ingredients">
+                <h2>Meat Toppings</h2>
+                    <div class="inside-ingredient">
+                        <img src="./img/pepperoni.jpg" alt="pepperoni" width="125" height="125">
+                        <input type="checkbox" name="toppings[]" value="Pepperoni">Pepperoni</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/salami.jpg" alt="Salami" width="125" height="125">
+                        <input type="checkbox" name="toppings[]" value="Salami">Salami</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/ham.jpg" alt="Ham" width="125" height="125">
+                        <input type="checkbox" name="toppings[]" value="Ham">Ham</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/meat.jpg" alt="Meat" width="125" height="125">
+                        <input type="checkbox" name="toppings[]" value="Meat">Meat</imput>
+                    </div>
+                    </div>
+                    <div class="ingredients">
+                    <h2>Veggie Toppings</h2>
+                        <div class="inside-ingredient">
+                            <img src="./img/olives.jpg" alt="olives" width="125" height="125">
+                            <input type="checkbox" name="toppings[]" value="Olives">Olives</imput>
+                        </div>
+                        <div class="inside-ingredient">
+                            <img src="./img/mushrooms.jpg" alt="mushrooms" width="125" height="125">
+                            <input type="checkbox" name="toppings[]" value="Mushrooms">Mushrooms</imput>
+                        </div>
+                        <div class="inside-ingredient">
+                            <img src="./img/jalapeno.jpg" alt="Jalapeno" width="125" height="125">
+                            <input type="checkbox" name="toppings[]" value="Jalapeno">Jalapenos</imput>
+                        </div>
+                        <div class="inside-ingredient">
+                            <img src="./img/redpeppers.jpg" alt="Red Peppers" width="125" height="125">
+                            <input type="checkbox" name="toppings[]" value="Red Peppers">Red Peppers</imput>
+                        </div>
+                        </div>
+            <div class="ingredients">
+                <h2>Crust</h2>
+                    <div class="inside-ingredient">
+                        <img src="./img/deep-dish.jpg" alt="Deep Dish" width="125" height="125">
+                        <input type="radio" name="Crust" value="Deep Dish">Deep Dish</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/stuffedcrust.jpg" alt="Stuffed Crust" width="125" height="125">
+                        <input type="radio" name="Crust" value="Stuffed Crust">Stuffed Crust</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/pan.jpg" alt="Pan" width="125" height="125">
+                        <input type="radio" name="Crust" value="Pan">Pan</imput>
+                    </div>
+                    <div class="inside-ingredient">
+                        <img src="./img/thin.jpg" alt="Thin" width="125" height="125">
+                        <input type="radio" name="Crust" value="Thin">Thin</imput>
+                    </div>
+
+            </div>
+            <div>
+                <h2>size</h2>
+                <select>
+                    <option name="2X-Large">2X-Large</option>
+                    <option name="X-Large">X-Large</option>
+                    <option name="Large">Large</option>
+                    <option name="Medium">Medium</option>
+                    <option name="Small">Small</option>
+                    <br>
+                </select>
+            </div>
+            <div class="ingredients">
+                <div>
+                    <h2>Customer Information</h2>
+                    <input class="input-style" type="text" placeholder="Name" name="first" required><br>
+                    <input class="input-style" type="text" placeholder="Last Name" name="last" required><br>
+                </div>
+                <div>
+                    <h2>Address</h2>
+                    <select>
+    <option value="">Pick A State</option>
+    <option value="AL">Alabama</option>
+  	<option value="AK">Alaska</option>
+  	<option value="AZ">Arizona</option>
+  	<option value="AR">Arkansas</option>
+  	<option value="CA">California</option>
+  	<option value="CO">Colorado</option>
+  	<option value="CT">Connecticut</option>
+  	<option value="DE">Delaware</option>
+  	<option value="DC">District Of Columbia</option>
+  	<option value="FL">Florida</option>
+  	<option value="GA">Georgia</option>
+  	<option value="HI">Hawaii</option>
+  	<option value="ID">Idaho</option>
+  	<option value="IL">Illinois</option>
+  	<option value="IN">Indiana</option>
+  	<option value="IA">Iowa</option>
+  	<option value="KS">Kansas</option>
+  	<option value="KY">Kentucky</option>
+  	<option value="LA">Louisiana</option>
+  	<option value="ME">Maine</option>
+  	<option value="MD">Maryland</option>
+  	<option value="MA">Massachusetts</option>
+  	<option value="MI">Michigan</option>
+  	<option value="MN">Minnesota</option>
+  	<option value="MS">Mississippi</option>
+  	<option value="MO">Missouri</option>
+  	<option value="MT">Montana</option>
+  	<option value="NE">Nebraska</option>
+  	<option value="NV">Nevada</option>
+  	<option value="NH">New Hampshire</option>
+  	<option value="NJ">New Jersey</option>
+  	<option value="NM">New Mexico</option>
+  	<option value="NY">New York</option>
+  	<option value="NC">North Carolina</option>
+  	<option value="ND">North Dakota</option>
+  	<option value="OH">Ohio</option>
+  	<option value="OK">Oklahoma</option>
+  	<option value="OR">Oregon</option>
+  	<option value="PA">Pennsylvania</option>
+  	<option value="RI">Rhode Island</option>
+  	<option value="SC">South Carolina</option>
+  	<option value="SD">South Dakota</option>
+  	<option value="TN">Tennessee</option>
+  	<option value="TX">Texas</option>
+  	<option value="UT">Utah</option>
+  	<option value="VT">Vermont</option>
+  	<option value="VA">Virginia</option>
+  	<option value="WA">Washington</option>
+  	<option value="WV">West Virginia</option>
+  	<option value="WI">Wisconsin</option>
+  	<option value="WY">Wyoming</option>
+                    </select>
+                    <br>
+                    <input class="input-style" type="text" placeholder="Address" name="add1" required><br>
+                    <input class="input-style" type="text" placeholder="City" name="city" required><br>
+                    <input class="input-style" type="text" placeholder="Zip" name="zip" required><br>
+                </div>
+                <div>
+                    <h2>Additional information</h2>
+                    <input class="input-style" type="text" placeholder="Phone Number" name="phone" required><br>
+                    <input class="input-style" type="text" placeholder="Email" name="email" ><br>
+                    <input class="input-style" type="text" placeholder="Comments" name="comments">
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear all"><br>
+                <p>Click submit to place your order!</p>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
+
+</body
+
+</html>

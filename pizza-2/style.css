@@ -1,0 +1,93 @@
+/*header formating*/
+*{margin: 0; padding: 0;}
+ul li, ul li a
+{
+  display: inline-block;
+  border: 3px solid red;
+}
+ul
+{
+  background-color: red;
+  text-align: right;
+  background-image: url("./img/flames.jpg");
+  min-height: 200px;
+}
+ul li a:hover, .active
+{
+color: black;
+background: red;
+}
+ul li a
+{
+  padding: 10px;
+  text-decoration: none;
+  font-family: cursive;
+  color: red;
+}
+body{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+img{
+    width: 120px;
+    margin: 3px auto;
+    border-radius: 3%;
+}
+/*home page*/
+.homepage {
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: red solid;
+}
+.homepagep2 {
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: red solid;
+}
+
+/*orders page*/
+.ingredients{
+  text-align: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 10px;
+    border: red solid;
+}
+.inside-ingredient{
+    width: 140px;
+    margin: 16px;
+}
+.order{
+    padding: 16px;
+    margin: 16px auto;
+    width: 800px;
+    padding: 32px;
+}
+
+/*contact page*/
+.contact{
+    background: url('../img/pizzaparlor.jpg');
+    padding: 32px;
+    margin: 16px auto;
+    width: 750px;
+    padding: 16px;
+}
+/*about page*/
+.aboutpage{
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: red solid;
+}
+.aboutpage{
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: red solid;

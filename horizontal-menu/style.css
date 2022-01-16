@@ -1,0 +1,26 @@
+*{margin: 0; padding: 0;}
+ul li, ul li a
+{
+  display: inline-block;
+  border: 2px solid grey;
+}
+ul
+{
+  background-color: LightGrey;
+  text-align: right;
+}
+ul li a:hover, .active
+{
+color: white;
+background:Grey;
+}
+ul li a
+{
+  padding: 5px;
+  text-decoration: none;
+  font-family: cursive;
+  color: black;
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+</style>

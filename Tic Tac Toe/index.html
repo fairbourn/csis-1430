@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tik Tac Toe</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload= "startGame();">
+		<h2 id = "game-message">Tic Tac Toe</h2>
+
+
+		<div id="game-board">
+
+		  <div id="row-1">
+	    <div  onclick="playGame(this, 1);"></div>
+		  <div  onclick="playGame(this, 2);"></div>
+		  <div  onclick="playGame(this, 4);"></div>
+	      </div>
+
+		<div id="row-2">
+			<div  onclick="playGame(this, 8);"></div>
+			<div  onclick="playGame(this, 16);"> </div>
+			<div  onclick="playGame(this, 32);"></div>
+		    </div>
+
+		<div id="row-3">
+			<div  onclick="playGame(this, 64);"></div>
+			<div  onclick="playGame(this, 128);"></div>
+			<div  onclick="playGame(this, 256);"></div>
+    </div>
+        <p>
+                    <form action="javascript:void(0);">
+                        <input id="textbox" type="text"><br>
+                        <input id="textbox" type="text"><br>
+                        <input class="button" type="button" value="Enter" onclick="myFunction();">
+                        <input class="button" type="button" value="Reset" onclick="eraser()">
+                      </form>
+        </p>
+	  </div>
+
+
+	</body>
+</html>

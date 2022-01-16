@@ -1,0 +1,163 @@
+/*header formating*/
+*{margin: 0; padding: 0;}
+ul li, ul li a
+{
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 25px;
+
+}
+ul
+{
+  background-color: white;
+  text-align: center;
+  background-image: url("./img/spcae.jpg");
+  min-height: 150px;
+  padding: 5px;
+}
+ul li a:hover, .active
+{
+color: white;
+background: navy;
+padding: 10px;
+}
+ul li a
+{
+  padding: 10px;
+  text-decoration: none;
+  font-family: "Audiowide", sans-serif;
+  color: white;
+}
+body{
+    font-family: "Audiowide", sans-serif;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-color: cornflowerblue;
+    background-image: linear-gradient(indigo,indigo, midnightblue, navy, navy, cornflowerblue);
+    color: gold;
+    text-align: center;
+}
+html{
+  min-height: 100%;
+}
+img{
+    width: 120px;
+    margin: 3px auto;
+    border-radius: 3%;
+}
+/*header*/
+.header {
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: 5px blue solid;
+  background-color: lightsteelblue;
+}
+/*this controlls the div with the quotes*/
+.quotes {
+  border-radius: 25px;
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  height: 252px;
+  padding: 32px;
+  border: 5px gold solid;
+  background-color: transparent;
+}
+/*this controls the div with the animation on it*/
+.animationDiv{
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  height: 500px;
+  padding: 32px;
+
+}
+/*this puts space betwen h1 tag and the animation*/
+.spacer{
+  padding: 16px;
+  margin: 16px auto;
+  width: 700px;
+  height: 67px;
+  padding: 32px;
+
+}
+/*this puts a div around the animationDIV and the spacer div*/
+.background{
+  border-radius: 25px;
+  padding: 16px;
+  margin: 16px auto;
+  width: 900px;
+  height: 700px;
+  padding: 32px;
+  border: 5px deeppink solid;
+  background-color: transparent;
+}
+/*this controls the button*/
+.btn
+{
+  padding: 16px 32px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-family: "Audiowide", sans-serif;
+  background-color: black;
+  color: white;
+}
+/*this controls the color of the button when you hover over it*/
+.btn:hover{
+    background-color: orange;
+}
+/*this controls how the animation runs*/
+    .element {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: black;
+  animation-name: stretch;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+/*this covers the text of the clock*/
+#txt{
+  padding: 16px;
+  margin: 16px auto;
+  width: 700px;
+  height: 67px;
+  padding: 32px;
+  font-size: 80px;
+  color: red
+}
+/*this is the audip portion*/
+audio{
+  padding: 150px 32px;
+/*header*/
+}
+.card{
+  padding-top: 40px;
+}
+/*this controls the look of the animation*/
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-image: url("./img/images.jpg");
+    border-radius: 100%;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    transform: scale(1.5);
+    background-image: url("./img/download.jpg");
+  }
+}
+
+
+body,

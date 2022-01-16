@@ -1,0 +1,68 @@
+*{margin: 0; padding: 0;}
+/*this covers the body and the background image/fonts/colors*/
+body{
+    background-image: url('../img/lottery.jpg');
+    background-size: cover;
+    font-size: 24px;
+    font-family: impact, fantasy;
+    text-align: center;
+    color: black;
+}
+/*this covers the header and the text that says "do you wanna play a game?"*/
+header{
+    margin-top: 16px;
+    color: red;
+}
+/*This is for the refresh page tip*/
+.smallfont{
+  font-size: small;
+  color:red;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/*this covers the button*/
+.button{
+    padding: 16px 32px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+/*button cont when you hover over the button it will turn orange*/
+.button:hover{
+    background-color: orange;
+
+}
+/*this covers all the rest of the text inside the div*/
+.body{
+  background-color: skyblue;
+  padding: 16px;
+  margin: 16px auto;
+  width: 800px;
+  padding: 32px;
+  border: cyan solid;
+}
+
+/*and this covers the feedback the user gets after putting input*/
+#comment{
+    color: gold;
+}
+/*this runs the animation*/
+p#prompt{
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 60px;
+    color: black;
+    animation-duration: 5s;
+    animation-name: slidingText;
+}
+
+  @keyframes slidingText {
+    from {
+      margin-right: 0%;
+      width: 1000%;
+    }
+
+    to {
+      margin-right: 100%;
+      width: 100%;
+    }
+  }

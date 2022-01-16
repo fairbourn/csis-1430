@@ -1,0 +1,180 @@
+* padding: 0; margin: 0;
+/*setting boarders*/
+.myDiv {
+  border: 5px outset ;
+  background-color: ;
+  text-align: center;
+}/*boarder for computer top and left positions*/
+div.box1 {
+  position: fixed;
+  top: 70px;
+  left: 160px;
+}/*boader for computer height, width and color*/
+div.box1 {
+  width: 1100px;
+  height: 650px;
+  background: black;
+}/*bezel of the computer position, top and left dimensions*/
+div.box2 {
+  position: fixed;
+  top: 660px;
+  left: 160px;
+}/*bezel of the computer width, height and color */
+div.box2 {
+  width: 1100px;
+  height: 90px;
+  background: grey;
+}/*screen position, top and left dimensions*/
+div.box3 {
+  position: fixed;
+  top: 110px;
+  left: 200px;
+}/*screen width, height and color*/
+div.box3 {
+  width: 1015px;
+  height: 500px;
+  background: LightBlue;
+}/*camera position, top and left dimensions*/
+div.circle1 {
+  position: fixed;
+    top: 85px;
+    left: 721px;
+}/*camera width, height and color*/
+div.circle1 {
+  width: 10px;
+    height: 10px;
+    background: green;
+    border-radius: 50%;
+}/*dock position, top and left dimensions*/
+div.box4 {
+  position: fixed;
+  top: 550px;
+  left: 200px;
+}/*dock width, height and color*/
+div.box4 {
+  width: 1015px;
+  height: 60px;
+  background: grey;
+}/*application: excel, position, top and left dimensions*/
+div.box5 {
+  position: fixed;
+  top: 560px;
+  left: 240px;
+}/*application: excel, width, height and color*/
+div.box5 {
+  width: 40px;
+  height: 40px;
+  background: green;
+}/*screen saver, positions top and left dimensions*/
+div.triangle1 {
+  position: fixed;
+  top: 250px;
+  left: 531px;
+}/*screen saver, height, boaders and color*/
+div.triangle1 {
+  width: 0;
+     height: 0;
+     border-left: 200px solid transparent;
+     border-right: 200px solid transparent;
+     border-bottom: 300px solid orange;
+   }/*application: powerpoint, position, top and left dimensions*/
+   div.circle2 {
+     position: fixed;
+     top: 561px;
+     left: 323px;
+  }/*application: powerpoint, width, height and color*/
+  div.circle2{
+       width: 40px;
+         height: 40px;
+         background: red;
+         border-radius: 50%;
+     }/*application: word, position, top and left dimensions*/
+  div.box6 {
+       position: fixed;
+       top: 561px;
+       left: 416px;
+     }/*application: word, width, height and color*/
+  div.box6 {
+       width: 40px;
+       height: 40px;
+       background: blue;
+     }/*application: spotify position, top and left dimensions*/
+     div.circle3 {
+       position: fixed;
+       top: 561px;
+       left: 527px;
+     }/*application: spotify, width, height and color */
+     div.circle3{
+         width: 40px;
+           height: 40px;
+           background: seagreen;
+           border-radius: 50%;
+       }/*application: eclipse ,position, top and left dimensions*/
+     div.circle4 {
+       position: fixed;
+       top: 561px;
+       left: 641px;
+     }/*application: eclipse, width, height and color*/
+     div.circle4{
+         width: 40px;
+           height: 40px;
+           background: purple;
+           border-radius: 50%;
+       }/*app store, position, top and left dimensions*/
+       div.circle5 {
+         position: fixed;
+         top: 561px;
+         left: 764px;
+       }/*app store, width, height and color*/
+       div.circle5{
+           width: 40px;
+             height: 40px;
+             background: DeepSkyBlue;
+             border-radius: 50%;
+         }/*application: chrome, position, top and left dimensions*/
+       div.circle6 {
+         position: fixed;
+         top: 561px;
+         left: 886px;
+       }/*application: chrome, width, height and color*/
+       div.circle6{
+           width: 40px;
+             height: 40px;
+             background: gold;
+             border-radius: 50%;
+         }/*application: settings, position, top and left dimensions*/
+         div.box7 {
+              position: fixed;
+              top: 561px;
+              left: 1018px;
+            }/*application: settings, width, height and color*/
+         div.box7 {
+              width: 40px;
+              height: 40px;
+              background: silver;
+            }/*application: terminal, position, top and left dimensions*/
+            div.box8 {
+                 position: fixed;
+                 top: 561px;
+                 left: 1128px;
+               }/*application: terminal, width, height and color*/
+            div.box8 {
+                 width: 40px;
+                 height: 40px;
+                 background:black;
+               }/*hard drive, border, solid transparent, height and width dimensions*/
+               div.trapezoid{
+                 border-bottom: 50px solid #555;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	height: 0;
+	width: 50px
+
+
+}/*hard drive, position, top and left dimensions*/
+div.trapezoid{
+       position: fixed;
+       top: 126px;
+       left: 1121px;
+
+}

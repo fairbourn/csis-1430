@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lottery Game</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Wanna Play A little Game?</h1>
+		</header>
+		<section>
+				<div class="body">
+					<p>Enter any number into the textbox!</p><br>
+					<p>When you enter a number our system will give you that many randomly generated numbers!</p><br>
+					<p class="smallfont">(refresh page for animation to run again)</p>
+						<div>
+							<form action="javascript:void(0);">
+								<input id="textbox" type="text"><br><br>
+								<input class="button" type="button" value="Enter" onclick="myFunction();">
+								<input class="button" type="button" value="Swich Up the Numbers" onclick="myFunction();">
+								<input class="button" type="button" value="Reset" onclick="eraser()">
+							</form>
+						</div>
+						<div>
+							<p id="prompt"></p><br>
+							<p id="comment"></p>
+						</div>
+				</div>
+		</section>
+	</body>
+</html>
